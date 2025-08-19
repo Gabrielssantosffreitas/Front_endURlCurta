@@ -16,7 +16,7 @@ const btnVerlinks = document.getElementById("14")
 // escuatar envento clcik 
 btnVerlinks.addEventListener("click", e =>{
 // abriar um pagania html 
-const Troca = window.location.href = "/pages/Capivara/index.html"
+const Troca = window.location.href = "/Capivara/index.html"
 } )
 
 

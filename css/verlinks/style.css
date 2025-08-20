@@ -1,0 +1,13 @@
+body,html {
+    box-sizing: border-box;
+
+}
+main {
+    margin: auto;
+}
+main table {
+    margin: auto;
+    margin-top: 20vh;
+    width: 80vw;
+    height: 5vh;
+}

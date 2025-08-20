@@ -1,0 +1,25 @@
+body,header {
+    box-sizing: border-box;
+}
+main section h1 {
+    text-align: center;
+    font-size: 6vw;
+}
+main section form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+main section form input {
+    font-size: 2vw;
+}
+.S {
+    margin-top: 2vh;
+}
+.gar {
+    margin-top: 2vh;
+    margin-left: 19.6vw;
+    background-color: whitesmoke;
+    color:black
+}

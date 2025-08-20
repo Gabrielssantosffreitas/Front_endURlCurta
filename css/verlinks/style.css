@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Henny+Penny&display=swap');
 body,html {
     box-sizing: border-box;
 
@@ -10,4 +11,14 @@ main table {
     margin-top: 20vh;
     width: 80vw;
     height: 5vh;
+}
+header  h1 {
+    display: inline;
+    font-family: "henny Penny", system-ui;
+    font-size: 2.5vw;
+}
+span {
+    display: inline;
+    font-family: fantasy;
+    font-size: 1.5vw;
 }

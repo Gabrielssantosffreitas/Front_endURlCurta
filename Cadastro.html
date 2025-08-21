@@ -6,9 +6,29 @@
 </head>
 <body>
     <main>
-        <form>
+        <section>
 
-        </form>
+            <form id="cadastro">
+                <label for="username"> username</label>
+                <input type="text" name="username" id="username" placeholder="username" required>
+                <label for="senha"> senha</label>
+                <input type="password" name="senha" id="senha" required >
+                <label for="email"> email</label>
+                <input type="email" name="email" id="email" placeholder="explo@exmplo.com.br" required>
+                <label for="tell"> telefone</label>
+                <input type="tel" name="tell" id="tell" placeholder="(xx) 9xxxx-xxxx" required >
+                <label for="enviar_email"> quer ser notificado ? </label>
+                <input type="radio" name="enviar_email" id="nao_enviar_email" > <span>nao</span>
+                <input type="radio" name="enviar_email" id="sim_enviar_email"> <span>sim</span>
+                <label for="role"> permissao</label>
+                <select name="role" id="role">
+                    <option value="">permissao</option>
+                    <option value="1">Pessoa</option>
+                </select>
+                <input type="submit" value="cadastrar">
+            </form>
+            <section></section>
+        </section>
     </main>
 </body>
 </html>
